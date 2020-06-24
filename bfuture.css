@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding:0;
+color: black;
+text-decoration: none;
+
+
+}
+body{
+  color : black;
+  font-size : 18pt;
+  font-style : black bold;
+  background:url(https://www.superbest.pl/wp-content/uploads/2016/01/WebDev-1100x619.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+
+  background-size: cover;
+}
+h2{
+  font-size: 50pt;
+
+}
+h3{
+  font-style: italic;
+  font-size: 35pt;
+}
+h1{
+  font-size: 80pt;
+}

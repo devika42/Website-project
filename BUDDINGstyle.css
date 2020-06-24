@@ -1,0 +1,133 @@
+*{
+  margin:0;
+  padding:0;
+color: black;
+text-decoration: none;
+
+}
+body{
+
+  color : black;
+  font-size : 35pt;
+  font-style : black bold;
+  background: url(https://www.superbest.pl/wp-content/uploads/2016/01/WebDev-1100x619.jpg) no-repeat;
+  background-repeat: no-repeat;
+text-align: center;
+
+background-size: cover;
+
+}
+
+h1{
+  font-size : 100px;
+  color : white;
+  font-style : bold;
+  text-align : center;
+  background:#2c3e50;
+}
+.indent{
+  margin-left : 50pt;
+  margin-right : 50pt;
+  margin-top: auto;
+
+
+}
+p{
+  indent:right;
+  margin-left: 25%;
+}
+nav{
+  height: 60px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    background :#2c3e50;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  float:center;
+  background :#2c3e50;
+indent:center;
+
+}
+nav ul li{
+    list-style : none;
+    display:inline-block;
+    transition: 0.6s all ease;
+   background :#2c3e50;
+    width: 150px;
+    position: relative;
+  }
+
+  nav ul li ul{
+  display: none;
+  height: 5px;
+  font-size: 25px;
+  }
+
+nav ul li a:hover{
+  background :#243342;
+cursor: pointer;
+height: 60px;
+}
+nav ul li:hover>ul{
+display:block;
+
+
+}
+nav ul li a{
+  display: block;
+  color:white;
+ padding: 0 15px;
+ text-decoration: none;
+ line-height: 60px;
+  font-size: 20px;
+}
+nav ul ul{
+  position:absolute;
+  top: 60px;
+  display: none;
+}
+nav ul ul li{
+  display: list-item;
+  position:relative;
+
+  float:none;
+  width:150px;
+}
+.sidemenu{
+  position:fixed;
+  left:0;
+  width:300px;
+  height: 100%;
+  background:#2c3e50;
+  z-index: 180px; /* Stay on top */
+ top: 180px; /* Stay at the top */
+}
+.sidemenu li{
+  margin-top: 0;
+  indent: top;
+  height: 50px;
+  height: fixed;
+
+}
+
+.sidemenu ul li{
+  display: block;
+  height: 110px;;
+  width: 300px;
+  line-height: 45px;
+  font-size: 25px;
+  font-display: block;
+  color: white;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-top:#2c3e50;
+  border-bottom: #2c3e50;
+  transition: 0.4s;
+  text-indent: center;
+    padding:10px;
+}
+.sidemenu ul li:hover{
+  padding-left: 50px;
+}
